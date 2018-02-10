@@ -1,0 +1,13 @@
+{# Include CSS: jEmoji minified #}
+{% if not definition.INCLUDED_JEMOJIMINCSS %}
+	{% INCLUDECSS '@mrgoldy_emojis/assets/jemoji.min.css' %}
+	{% DEFINE INCLUDED_JEMOJIMINCSS = true %}
+{% endif %}
+
+{# Include JS: jEmoji minified #}
+{% if not definition.INCLUDED_JEMOJIMINJS %}
+	{% INCLUDEJS '@mrgoldy_emojis/assets/jemoji.min.js' %}
+	{% DEFINE INCLUDED_JEMOJIMINJS = true %}
+{% endif %}
+
+{% INCLUDEJS '@mrgoldy_emojis/mrgoldy_emojis.js' %}

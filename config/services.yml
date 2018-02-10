@@ -1,0 +1,5 @@
+services:
+    mrgoldy.emojis.listener:
+        class: mrgoldy\emojis\event\listener
+        tags:
+            - { name: event.listener }
