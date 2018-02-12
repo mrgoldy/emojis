@@ -5,10 +5,10 @@
 $(function() {
 	$('#message, #signature').jemoji({
 		btn: $('#emojis'),
-		folder: 'ext/mrgoldy/emojis/emojis/',
+		theme: $('#emojis').data('theme'),
+		folder: $('#emojis').data('path'),
 		container: $('#message-box'),
-		navigation: false,
-		//theme: 'blue',
+		navigation: false
 	});
 });
 

@@ -37,5 +37,10 @@ if (empty($lang) || !is_array($lang))
 // ’ » “ ” …
 //
 $lang = array_merge($lang, array(
-	'EMOJIS_HELP'		=> 'Emojis - start with colon (:) and autocomplete after 2 characters',
+	'ACP_EMOJIS_THEME'		=> 'Emojis theme',
+
+	'ACP_EMOJIS_BLACK'		=> 'Black',
+	'ACP_EMOJIS_BLUE'		=> 'Blue',
+	'ACP_EMOJIS_GREEN'		=> 'Green',
+	'ACP_EMOJIS_RED'		=> 'Red',
 ));

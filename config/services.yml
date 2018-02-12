@@ -1,5 +1,10 @@
 services:
     mrgoldy.emojis.listener:
         class: mrgoldy\emojis\event\listener
+        arguments:
+            - '@config'
+            - '@ext.manager'
+            - '@language'
+            - '@template'
         tags:
             - { name: event.listener }
