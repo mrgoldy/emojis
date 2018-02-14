@@ -24,7 +24,7 @@ class m1_initial_data extends \phpbb\db\migration\container_aware_migration
 	*/
 	static public function depends_on()
 	{
-		return array('\phpbb\db\migration\data\v32x\v321');
+		return array('\phpbb\db\migration\data\v320\v320');
 	}
 
 	/**
