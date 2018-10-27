@@ -90,6 +90,7 @@ class listener implements EventSubscriberInterface
 	 * Add emojis theme and path to the signature & compose private message template variables
 	 *
 	 * @event	core.ucp_profile_modify_signature
+	 * @event	core.ucp_pm_compose_modify_data
 	 * @return	void
 	 * @access	public
 	 */
